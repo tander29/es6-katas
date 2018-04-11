@@ -9,7 +9,11 @@ Getting started is a matter of doing the following:
 3. complete katas
 
 ## Installing Dependencies
-To install dependencies, fork this repository, clone it, then run this command from the rooot of the repository:
+To install dependencies, fork this repository, and clone it clone it to your
+machine. From the root of the repository. Remember that because you are
+_forking_ a repository, there is no need to create a new directory or run
+`npm init` in it first. Once you have this repository on your machine, you
+can install the dependencies from the root of the repository using `npm`:
 ```bash
 npm install
 ```
@@ -44,12 +48,16 @@ const add = (x, y) => {
 You may have noticed that we asked you to fork this repository rather than
 clone it. That's so that you can save your work and push it to GitHub. That
 also, however, means that getting updated katas isn't as straight forward.
+
+You'll need to add the original KenzieAcademy/es6-katas repository as a
+remote and pull from _that_ to get updates.
 You can add a new origin as follows:
 ```bash
 git remote add kenzie git@github.com:KenzieAcademy/es6-katas.git
 ```
 
-Then pull in updates as follows:
+Before updating, make sure you have a clean working directory (You've
+committed first). Then pull in updates as follows:
 ```bash
 git pull kenzie master
 ```
