@@ -21,7 +21,7 @@ npm test
 ```
 
 You should then see some output like the following:
-![Test output screenshot]()
+![Test output screenshot](https://raw.githubusercontent.com/KenzieAcademy/es6-katas/master/test_output.png)
 
 Here, you can see that we have several test failing, as well as a hint at what we were expecting.
 
