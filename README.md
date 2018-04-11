@@ -1,20 +1,20 @@
-# es6 katas
+# ES6 katas
 in this exercise, you will be converting a series of expressions and functions
 written in es5 to use es6 instead.
 
-# getting started
+# Getting Started
 getting started is a matter of doing the following:
 1. install dependencies
 2. run tests
 3. complete katas
 
-## installing dependencies
+## Installing Dependencies
 to install dependencies, fork this repository, clone it, then run this command from the rooot of the repository:
 ```bash
 npm install
 ```
 
-## running tests
+## Running Tests
 the output of tests will be your hint at how close you are to completing various katas. you'll want to run the following command in a new terminal (such as the one found at the bottom of vs code):
 ```bash
 npm test
@@ -25,7 +25,7 @@ you should then see some output like the following:
 
 here, you can see that we have several test failing, as well as a hint at what we were expecting.
 
-### completing katas
+### Completing Katas
 next, you should open up whichever kata you want to work on next. we suggest starting with `katas/arrow-functions.js`. in each module, you'll find functions and expressiosn written in es5 with comments above them explaining which es6 features we'd like you to use to convert them. for example, the first "arrow functions" kata tells you to convert the add function to an arrow function. as such, you'd convert this:
 ```javascript
 function add(x, y) {
