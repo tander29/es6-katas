@@ -1,26 +1,26 @@
 # ES6 katas
-in this exercise, you will be converting a series of expressions and functions
+In this exercise, you will be converting a series of expressions and functions
 written in es5 to use es6 instead.
 
 # Getting Started
-getting started is a matter of doing the following:
+Getting started is a matter of doing the following:
 1. install dependencies
 2. run tests
 3. complete katas
 
 ## Installing Dependencies
-to install dependencies, fork this repository, clone it, then run this command from the rooot of the repository:
+To install dependencies, fork this repository, clone it, then run this command from the rooot of the repository:
 ```bash
 npm install
 ```
 
 ## Running Tests
-the output of tests will be your hint at how close you are to completing various katas. you'll want to run the following command in a new terminal (such as the one found at the bottom of vs code):
+The output of tests will be your hint at how close you are to completing various katas. you'll want to run the following command in a new terminal (such as the one found at the bottom of vs code):
 ```bash
 npm test
 ```
 
-you should then see some output like the following:
+You should then see some output like the following:
 ![test output screenshot](https://raw.githubusercontent.com/kenzieacademy/es6-katas/master/test_output.png)
 
 here, you can see that we have several test failing, as well as a hint at what we were expecting.
@@ -34,11 +34,27 @@ function add(x, y) {
 ```
 
 into this in order to get tests to pass:
+```javascript
 const add = (x, y) => {
     return x + y;
 };
+```
 
-## FAQ
+# Getting Updates
+You may have noticed that we asked you to fork this repository rather than
+clone it. That's so that you can save your work and push it to GitHub. That
+also, however, means that getting updated katas isn't as straight forward.
+You can add a new origin as follows:
+```bash
+git remote add kenzie git@github.com:KenzieAcademy/es6-katas.git
+```
+
+Then pull in updates as follows:
+```bash
+git pull kenzie master
+```
+
+# FAQ
 - What are [mocha](https://mochajs.org/) and [chai](http://www.chaijs.com/)? 
     - They are libraries to make writing unit tests easier. if we had just
       used `console.assert`, we wouldn't have had the ability to provide as
