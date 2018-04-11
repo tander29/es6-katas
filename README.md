@@ -38,14 +38,14 @@ const add = (x, y) => {
     return x + y;
 };
 
-## faq
-- what are [mocha](https://mochajs.org/) and [chai](http://www.chaijs.com/)? 
-    - they are libraries to make writing unit tests easier. if we had just
+## FAQ
+- What are [mocha](https://mochajs.org/) and [chai](http://www.chaijs.com/)? 
+    - They are libraries to make writing unit tests easier. if we had just
       used `console.assert`, we wouldn't have had the ability to provide as
       usfeul of hints for how to solve each kata.
-- in `package.json`, i see that the testing libraries are written in
+- In `package.json`, i see that the testing libraries are written in
   `devdependencies` instead of `dependencies`, why?
-    - we use `dependencies` for librarires that are _required_ for the
+    - We use `dependencies` for librarires that are _required_ for the
       application to run, and `devdependencies` for libraires that assist in
       the development of an application, but aren't needed to actually run it.
       In this particular case, the application is just a bunch of katas, and we
