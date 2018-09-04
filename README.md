@@ -1,3 +1,8 @@
+
+#Travis's notes to change:
+conflicting step 1.  fork or clone, slack message said clone, this below says to fork
+
+
 # ES6 katas
 In this exercise, you will be converting a series of expressions and functions
 written in es5 to use es6 instead.
