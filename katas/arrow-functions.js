@@ -7,7 +7,7 @@ function add(x, y) {
 
 /*
  * 2. If a function only has one argument, you can exclude the parentheses.
- *    Covert this to an arrow function that takes advantage of that.
+ *    Convert this to an arrow function that takes advantage of that.
  */
 function increment(number) {
     return number + 1;
@@ -16,7 +16,7 @@ function increment(number) {
 /* 
  * 3. If a function's body includes a single expression, you can drop the curly
  *    braces and the return statement. Update this arrow function to be a one
- *    liner that doesn't include "return".
+ *    liner which doesn't include "return".
  */
 const decrement = number => {
     return number - 1;
